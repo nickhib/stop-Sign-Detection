@@ -1,6 +1,6 @@
 # stop-Sign-Detection
 Machine learning is used in the detection of stop signs, distance tracking. This is because when one uses yolo, they are essentially training a model to see desired objects. This is done through deep learning or convolutional neural networks. The CNN structure is typically divided into a grid, and it is structured in such a way as to predict bounding boxes and class confidence inside each grid cell. So images are fed into the CNN, and then the CNN will predict the bounding box and the classifier. YOLO is usually trained on images that have ground truth coordinates of where the bounding box is, so we can correct, adjust the weight, and learn to correctly find the object.
 ![image](https://github.com/user-attachments/assets/fc1fd565-b674-4b45-9e4b-1debc754f32a)
-I decided to make a program to test the recall and other statistics such as in the image below. This test was done on yolov3 with a data set called road-sign-detection. How I tested this was in this dataset there are XML files with image classification and x and y coordinates of where the ideal bounding box would be.
+I decided to make a program to test the recall and other statistics, such as those in the image below. This test was conducted using YOLOv3 with the Road-Sign-Detection dataset. I tested this by examining the dataset, which contains XML files with image classification, as well as x and y coordinates indicating the ideal bounding box locations.
 ![image](https://github.com/user-attachments/assets/2a3b4df2-bfef-4dc5-8c61-1ee338d6d1bb)
 
